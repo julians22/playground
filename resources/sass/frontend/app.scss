@@ -1,0 +1,27 @@
+@import "../global";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap Overrides
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Pages
+@import 'pages/dashboard';
+
+li.nav-item{
+    background: transparentize($color: $red, $amount: 0.4);
+    border-radius: 2rem;
+    min-width: 85px;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 0 4px;
+    a{
+        color: black !important;
+    }
+}
